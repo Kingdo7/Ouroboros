@@ -43,6 +43,8 @@ var $plugins =
 {"name":"-----------","status":false,"description":"","parameters":{}},
 {"name":"HIME_MultipleInventories","status":true,"description":"Provides an easy way to manage multiple inventories if you\nneed to switch between them or merge them during the game.","parameters":{"Default Inventory Name":"default"}},
 {"name":"HIME_PreTitleEvents","status":true,"description":"Build your own sequence of events that should occur before\nthe title screen begins","parameters":{"Pre-Title Map ID":"1","Use As Title":"false"}},
+{"name":"HIME_WindowBackgroundDesigner","status":true,"description":"v1.1 - Decorate all of your windows with custom images","parameters":{}},
+{"name":"HIME_WindowskinChange","status":true,"description":"v1.0 - Change windowskins during the game using script calls!","parameters":{}},
 {"name":"-----------","status":false,"description":"","parameters":{}},
 {"name":"SMRNDMDD","status":false,"description":"","parameters":{}},
 {"name":"-----------","status":false,"description":"","parameters":{}},
