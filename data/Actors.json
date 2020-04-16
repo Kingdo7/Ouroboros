@@ -1,0 +1,9 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"Emma","classId":1,"equips":[],"faceIndex":0,"faceName":"Emma","traits":[],"initialLevel":1,"maxLevel":99,"name":"Emma","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"Christophe","classId":1,"equips":[],"faceIndex":0,"faceName":"Christophe","traits":[],"initialLevel":1,"maxLevel":99,"name":"Christophe","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"Louis","classId":1,"equips":[],"faceIndex":0,"faceName":"Louis","traits":[],"initialLevel":1,"maxLevel":99,"name":"Louis","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"Mathias","classId":1,"equips":[],"faceIndex":0,"faceName":"Mathias","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mathias","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"Moros","classId":1,"equips":[],"faceIndex":0,"faceName":"Moros","traits":[],"initialLevel":1,"maxLevel":99,"name":"Moros","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":6,"characterName":"!Select_lvl","classId":1,"equips":[],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Select","nickname":"","note":"","profile":""}
+]
