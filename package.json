@@ -5,8 +5,8 @@
     "window": {
         "title": "",
         "toolbar": false,
-        "width": 816,
-        "height": 624,
+        "width": 1080,
+        "height": 720,
         "icon": "icon/icon.png"
     }
 }
