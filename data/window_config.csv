@@ -1,7 +1,7 @@
 Window;Name,Image;Name;(in;System;folder),;Window;Opacity,Scene;Name;(optional),Attribute;Name;(optional)
 Window_Help,,0,,;;;;;;;;;;;
 Window_Gold,bg_menuGold,0,,;;;;;;;;;;;
-Window_MenuCommand,,0,,;;;;;;;;;;;
+Window_MenuCommand,,0,,;Fond_Menu;;;;;;;;;;
 Window_MenuStatus,,0,,;;;;;;;;;;;
 Window_MenuActor,,255,,;;;;;;;;;;;
 Window_ItemCategory,,255,,;;;;;;;;;;;
