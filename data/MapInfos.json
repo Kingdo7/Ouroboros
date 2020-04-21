@@ -54,7 +54,7 @@ null,
 {"id":52,"expanded":true,"name":"Maison_int","order":16,"parentId":13,"scrollX":819,"scrollY":461},
 {"id":53,"expanded":false,"name":"Grenier","order":17,"parentId":13,"scrollX":819,"scrollY":461},
 {"id":54,"expanded":true,"name":"Reconstitution","order":18,"parentId":13,"scrollX":819,"scrollY":461},
-{"id":55,"expanded":true,"name":"Test memento","order":7,"parentId":5,"scrollX":338,"scrollY":448.5},
+{"id":55,"expanded":true,"name":"Test memento","order":7,"parentId":5,"scrollX":819,"scrollY":461},
 {"id":56,"expanded":true,"name":"Select Chap","order":5,"parentId":0,"scrollX":811,"scrollY":640},
 {"id":57,"expanded":true,"name":"Select Save slot","order":4,"parentId":49,"scrollX":819,"scrollY":461}
 ]
