@@ -57,5 +57,5 @@ var $plugins =
 {"name":"EGT_Map_Based_Startscreen","status":true,"description":"","parameters":{}},
 {"name":"-----------","status":false,"description":"","parameters":{}},
 {"name":"Simple_Item_Scene","status":true,"description":"This plugin changes the default Scene Item.","parameters":{"windowWidth":"300","windowHeight":"500"}},
-{"name":"TWings_DuelBattles","status":true,"description":"v1.42 Creates Suikden-like Duel Battles","parameters":{"GSetting":"","dMode":"Suikoden","atkCmd":"Attack","grdCmd":"Guard","speCmd":"Special","critMulti":"3","rsltWinCfg":"","rsltWin":"false","rsltTxtWin":"Win","rsltTxtLose":"Lose","rsltTxtDraw":"Draw","PSetting":"","atkId":"1","speId":"3","ESetting":"","eAtkSwitch":"1","eSpeSwitch":"2","EnmyAtkPtrn":"[]","RPSMod":"","grdId":"2","eGrdSwitch":"3"}}
+{"name":"TWings_DuelBattles","status":true,"description":"v1.42 Creates Suikden-like Duel Battles","parameters":{"GSetting":"","dMode":"Suikoden","atkCmd":"Attaquer","grdCmd":"Défense","speCmd":"Coup Spécial","critMulti":"3","rsltWinCfg":"","rsltWin":"false","rsltTxtWin":"Victoire","rsltTxtLose":"Défaite","rsltTxtDraw":"Draw","PSetting":"","atkId":"1","speId":"3","ESetting":"","eAtkSwitch":"1","eSpeSwitch":"2","EnmyAtkPtrn":"[]","RPSMod":"","grdId":"2","eGrdSwitch":"3"}}
 ];
