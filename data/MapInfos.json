@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"expanded":true,"name":"Ecran titre","order":2,"parentId":49,"scrollX":819,"scrollY":461},
-{"id":2,"expanded":true,"name":"Select Chara","order":3,"parentId":49,"scrollX":819,"scrollY":461},
+{"id":2,"expanded":true,"name":"Select Chara","order":3,"parentId":49,"scrollX":832,"scrollY":640},
 {"id":3,"expanded":true,"name":"0-1","order":10,"parentId":9,"scrollX":819,"scrollY":461},
 {"id":4,"expanded":true,"name":"Mathias","order":12,"parentId":3,"scrollX":819,"scrollY":461},
 {"id":5,"expanded":true,"name":"Test","order":6,"parentId":0,"scrollX":819,"scrollY":461},
