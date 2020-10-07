@@ -58,5 +58,8 @@ var $plugins =
 {"name":"EGT_Map_Based_Startscreen","status":true,"description":"","parameters":{}},
 {"name":"-----------","status":false,"description":"","parameters":{}},
 {"name":"Simple_Item_Scene","status":true,"description":"This plugin changes the default Scene Item.","parameters":{"windowWidth":"300","windowHeight":"500"}},
-{"name":"TWings_DuelBattles","status":true,"description":"v1.42 Creates Suikden-like Duel Battles","parameters":{"GSetting":"","dMode":"Suikoden","atkCmd":"Attaquer","grdCmd":"Défense","speCmd":"Coup Spécial","critMulti":"3","rsltWinCfg":"","rsltWin":"false","rsltTxtWin":"Victoire","rsltTxtLose":"Défaite","rsltTxtDraw":"Draw","PSetting":"","atkId":"1","speId":"3","ESetting":"","eAtkSwitch":"1","eSpeSwitch":"2","EnmyAtkPtrn":"[]","RPSMod":"","grdId":"2","eGrdSwitch":"3"}}
+{"name":"TWings_DuelBattles","status":true,"description":"v1.42 Creates Suikden-like Duel Battles","parameters":{"GSetting":"","dMode":"Suikoden","atkCmd":"Attaquer","grdCmd":"Défense","speCmd":"Coup Spécial","critMulti":"3","rsltWinCfg":"","rsltWin":"false","rsltTxtWin":"Victoire","rsltTxtLose":"Défaite","rsltTxtDraw":"Draw","PSetting":"","atkId":"1","speId":"3","ESetting":"","eAtkSwitch":"1","eSpeSwitch":"2","EnmyAtkPtrn":"[]","RPSMod":"","grdId":"2","eGrdSwitch":"3"}},
+{"name":"RemoveOptionMenu","status":true,"description":"Plugin used to remove some option in the menu","parameters":{}},
+{"name":"MrTS_DarkRoomCovers","status":true,"description":"Hides or reveals regions.","parameters":{"Tile Size":"48 48"}},
+{"name":"Eli_RevealDarkCovers","status":true,"description":"v1.0 - Dynamically reveals regions.","parameters":{"enable":"true","mode":"Only on player","range":"0"}}
 ];
