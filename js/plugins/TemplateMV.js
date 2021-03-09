@@ -301,7 +301,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             break;
 
                             case "Chap1P3":
-                                window_name.X_chap1_p2();
+                                window_name.X_chap1_p3();
                             break;
                         
                             /******************* */
@@ -314,7 +314,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             break;
 
                             case "Chap2P3":
-                                window_name.X_chap2_p2();
+                                window_name.X_chap2_p3();
                             break;
                             /******************* */
                             case "Chap3P1":
@@ -326,7 +326,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             break;
 
                             case "Chap3P3":
-                                window_name.X_chap3_p2();
+                                window_name.X_chap3_p3();
                             break;
                             /******************* */
                             /******************* */
@@ -339,7 +339,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             break;
 
                             case "Chap4P3":
-                                window_name.X_chap4_p2();
+                                window_name.X_chap4_p3();
                             break;
                             /******************* */
                             case "Chap5P1":
@@ -351,7 +351,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             break;
 
                             case "Chap5P3":
-                                window_name.X_chap5_p2();
+                                window_name.X_chap5_p3();
                             break;
                             /******************* */
                             case "Chap6P1":
@@ -363,7 +363,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             break;
 
                             case "Chap6P3":
-                                window_name.X_chap6_p2();
+                                window_name.X_chap6_p3();
                             break;
                             /******************* */
                             case "Epilogue":
