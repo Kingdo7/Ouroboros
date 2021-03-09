@@ -1,61 +1,96 @@
-/*
-        TEMPLATE WINDOW v1
+/*:
+ * @plugindesc Crée une fenêtre d'information sans restraindre le joueur
+ * @author Keiner
+ * =============================================================================
+ * =============================================================================
+ * @param ---Screen---
+ * @default
+ * 
+ * @param Fenêtre position X
+ * @parent ---Screen---
+ * @type number
+ * @min 0
+ * @desc Coordonnée X de la fenêtre
+ * 
+ * @param Fenêtre position Y
+ * @parent ---Screen---
+ * @type number
+ * @min 0
+ * @desc Coordonnée Y de la fenêtre
+ * 
+ * @param Fenêtre largeur
+ * @parent ---Screen---
+ * @type number
+ * @min 0
+ * @desc Largeur de la fenêtre
+ * 
+ * @param Fenêtre longueur
+ * @parent ---Screen---
+ * @type number
+ * @min 0
+ * @desc Longueur de la fenêtre
+ * 
+ * @param Fenêtre opacité
+ * @parent ---Screen---
+ * @type number
+ * @min 0
+ * @desc Longueur de la fenêtre
+ * Default: 255
+ * @default 0
+ *
+ * @help
+ * =============================================================================
+ *                           COMANDE MODULE
+ * =============================================================================
+ * WindowK nom1 nom2
+ * nom1 = argument 1 au choix. Dans mon cas le nom d'un personnage 
+ * Emma, Louis, Moros, Mathias, Chris
+ * 
+ * nom2 = argument 2 aux choix. Dans mon cas le numéro de chapitre à ouvrir
+ * Chap1P1, Chap1P2, Chap1P3, Chap2P1, etc.
+ * 
+ * Pour fermer la fenêtre : WindowK Close
+ * 
+ * Pour vider la fenêtre : WindowK Empty
+ *   
+ */
 
+/*
+=============================================================================
+        TEMPLATE WINDOW v1
+=============================================================================
 NOTE
     Vous aurez ici, toutes les fonctions de chaque classe.
-*/
-
-/*
+----------------------------------
         WINDOW_BASE
-    
+
 Acteurs :
-    this.drawActorName(actor, x, y, w);
-        Dessine le nom de l'acteur. (retourne un texte)
-    this.drawActorLevel(actor, x, y);
-        Affiche le niveau de l'acteur. (retourne un texte)
-    this.drawActorIcons(actor, x, y);
-        Affiche les icône de l'acteur. (retourne une image)
-    this.drawActorClass(actor, x, y);
-        Affiche le nom de la classe de l'acteur x. (retourne un texte)
-    this.drawActorHp(actor, x, y, w);
-        Affiche le nombre de point de vie (HP) et la jauge de l'acteur x. (retourne un texte, jauge et le current/max)
-    this.drawActorMp(actor, x, y, w);
-        Affiche le nombre de point de magie (MP) et la jauge  de l'acteur x. (retourne un texte, jauge et le current/max)
-    this.drawActorNickname(actor, x, y, w);
-        Affiche le surnom de l'acteur x. (retourne un texte)
-    this.drawActorLevel(actor, x, y);
-        Affiche le niveau de l'acteur x. (retourne un texte)
-    this.drawCurrentAndMax(current, max, x, y, w, color1, color2);
-        Affiche un nombre avec un slash puis un nombre max. ex: current/max, 10/300. (retourne un texte)
-    this.drawActorTp(actor, x, y, w);
-        Affiche les points technique. (retourne un texte, jauge et le current/max)
-    this.drawActorSimpleStatus(actor, x, y, w);
-        Affiche toute les informations d'un acteur x. (retourne le nom, niveau, surnom, level, hp, mp)
-    this.drawItemName(item, x, y, w);
-        Affiche l'icône et le nom de l'item x.
+    this.drawActorName(actor, x, y, w);        Dessine le nom de l'acteur. (retourne un texte)        
+    this.drawActorLevel(actor, x, y);          Affiche le niveau de l'acteur. (retourne un texte)        
+    this.drawActorIcons(actor, x, y);          Affiche les icône de l'acteur. (retourne une image)        
+    this.drawActorClass(actor, x, y);          Affiche le nom de la classe de l'acteur x. (retourne un texte)        
+    this.drawActorHp(actor, x, y, w);          Affiche le nombre de point de vie (HP) et la jauge de l'acteur x. (retourne un texte, jauge et le current/max)        
+    this.drawActorMp(actor, x, y, w);          Affiche le nombre de point de magie (MP) et la jauge  de l'acteur x. (retourne un texte, jauge et le current/max)        
+    this.drawActorNickname(actor, x, y, w);    Affiche le surnom de l'acteur x. (retourne un texte)        
+    this.drawActorLevel(actor, x, y);          Affiche le niveau de l'acteur x. (retourne un texte)        
+    this.drawCurrentAndMax(current, max, x, y, w, color1, color2);     Affiche un nombre avec un slash puis un nombre max. ex: current/max, 10/300. (retourne un texte)        
+    this.drawActorTp(actor, x, y, w);          Affiche les points technique. (retourne un texte, jauge et le current/max)        
+    this.drawActorSimpleStatus(actor, x, y, w);       Affiche toute les informations d'un acteur x. (retourne le nom, niveau, surnom, level, hp, mp)        
+    this.drawItemName(item, x, y, w);          Affiche l'icône et le nom de l'item x.
+        
 Images :
-    this.drawIcon(iconIndex, x, y);
-        Affiche une icône de l'image de l'IconSet.png a l'index.
-    this.drawFace(faceName, faceIndex, x, y, w, h);
-        Dessine une faceset.
-    this.drawCharacter(characterName, characterIndex, x, y);
-        Dessine un character.
-    this.drawGauge(x, y, w, rate, color1, color2);
-        Dessine une jauge.
-    this.drawActorCharacter(actor, x, y);
-        Dessine le character de l'acteur x.
-    this.drawActorFace(actor, x, y, w, h);
-        Dessine le faceset de l'acteur x.
+    this.drawIcon(iconIndex, x, y);                    Affiche une icône de l'image de l'IconSet.png a l'index.         
+    this.drawFace(faceName, faceIndex, x, y, w, h);    Dessine une faceset.        
+    this.drawCharacter(characterName, characterIndex, x, y);    Dessine un character.        
+    this.drawGauge(x, y, w, rate, color1, color2);     Dessine une jauge.        
+    this.drawActorCharacter(actor, x, y);              Dessine le character de l'acteur x.        
+    this.drawActorFace(actor, x, y, w, h);             Dessine le faceset de l'acteur x.        
 
 Textes :
-    this.changeTextColor(n);
-        Change la couleur du prochain affichage de texte.
-    this.drawTextEx(string, x, y);
-        Affiche un texte utilisant les codes message.
-    this.drawText(string, x, y, w, align);
-        Affiche un texte sans utilisation des codes message.
-    this.textWidth(string);
-        Récupère la largeur du texte dans la variable.
+    this.changeTextColor(n);                 Change la couleur du prochain affichage de texte.        
+    this.drawTextEx(string, x, y);           Affiche un texte utilisant les codes message.        
+    this.drawText(string, x, y, w, align);   Affiche un texte sans utilisation des codes message.        
+    this.textWidth(string);                  Récupère la largeur du texte dans la variable.        
 
 Définitions :
     actor = L'acteur sélectionner.
@@ -93,8 +128,14 @@ class Window_Exemple extends Window_Base {
 	}
 	
 	initialize() {
-		super.initialize(600, 90, 450, 600);
-        this.opacity = 0;
+        var posX = Number(parameters['Fenêtre position X']);
+        var posY = Number(parameters['Fenêtre position X']);
+        var winlarge = Number(parameters['Fenêtre largeur']);
+        var winLong = Number(parameters['Fenêtre longueur']);
+        console.log(posX);
+		//super.initialize(600, 90, 450, 600);
+        super.initialize(posX, posY, winlarge, winLong);
+        //this.opacity = 0;
 		this.drawAll();
 	}
 	
@@ -207,7 +248,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
         ///FIN EXEMPLE
     */
 	
-    if (commands === "Window") {
+    if (commands === "WindowK") {
         const window_name = new Window_Exemple(); /// Variable contenant la fenêtre.
         SceneManager._scene.addChild(window_name);
 
@@ -226,7 +267,22 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
 
             case "Synopsis":
                 switch(args[1]){
-                    case "emma":
+                    case "emma": 
+                    /******************* *
+                    var function_name = args[1] + "_" + args[2];        
+                    console.log(function_name);
+                    console.log(window[function_name]);
+
+                    
+                    if (typeof (window[function_name]) === "function"){
+                        window_name[function_name]();
+                    } else {
+                        console.log("error Function Name");
+                    }
+                    
+                    var function_name = function functionVar() {};
+                    window_name.args[1] + "_" + args[2] + "()";
+                    /******************* */
                         switch(args[2]){
                             case "Perso":
                                 window_name.emma_perso();
@@ -247,7 +303,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             case "Chap1P3":
                                 window_name.X_chap1_p2();
                             break;
-                            
+                        
                             /******************* */
                             case "Chap2P1":
                                 window_name.X_chap2_p1();
@@ -312,6 +368,7 @@ Game_Interpreter.prototype.pluginCommand = function(commands, args) {
                             /******************* */
                             case "Epilogue":
                             break;
+                            /******************* */
                         }
                     break;
 
