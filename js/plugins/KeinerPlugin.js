@@ -127,128 +127,128 @@ class Window_Exemple extends Window_Base {
     emma_perso(){
         this.refresh();
         this.drawText("Emma", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string", 0, 0); 
     }
     /** PROLOGUE */
     emma_prologue(){
         this.refresh();
         this.drawText("Prologue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** CHAPITRE 1 */
     emma_chap1_p1(){
         this.refresh();
         this.drawText("Chapitre 1 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap1_p2(){
         this.refresh();
         this.drawText("Chapitre 1 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap1_p3(){
         this.refresh();
         this.drawText("Chapitre 1 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 2 */
     emma_chap2_p1(){
         this.refresh();
         this.drawText("Chapitre 2 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap2_p2(){
         this.refresh();
         this.drawText("Chapitre 2 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap2_p3(){
         this.refresh();
         this.drawText("Chapitre 2 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 3 */
     emma_chap3_p1(){
         this.refresh();
         this.drawText("Chapitre 3 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap3_p2(){
         this.refresh();
         this.drawText("Chapitre 3 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap3_p3(){
         this.refresh();
         this.drawText("Chapitre 3 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 4 */
     emma_chap4_p1(){
         this.refresh();
         this.drawText("Chapitre 4 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap4_p2(){
         this.refresh();
         this.drawText("Chapitre 4 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap4_p3(){
         this.refresh();
         this.drawText("Chapitre 4 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 5 */
     emma_chap5_p1(){
         this.refresh();
         this.drawText("Chapitre 5 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap5_p2(){
         this.refresh();
         this.drawText("Chapitre 5 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap5_p3(){
         this.refresh();
         this.drawText("Chapitre 5 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 6 */
     emma_chap6_p1(){
         this.refresh();
         this.drawText("Chapitre 6 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap6_p2(){
         this.refresh();
         this.drawText("Chapitre 6 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     emma_chap6_p3(){
         this.refresh();
         this.drawText("Chapitre 6 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** EPILOGUE */
     emma_epilogue(){
         this.refresh();
         this.drawText("Epilogue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
         
     /** **********************
@@ -257,128 +257,128 @@ class Window_Exemple extends Window_Base {
      mathias_perso(){
         this.refresh();
         this.drawText("Mathias", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string", 0, 0); 
     }
     /** PROLOGUE */
     mathias_prologue(){
         this.refresh();
         this.drawText("Prologue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** CHAPITRE 1 */
     mathias_chap1_p1(){
         this.refresh();
         this.drawText("Chapitre 1 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap1_p2(){
         this.refresh();
         this.drawText("Chapitre 1 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap1_p3(){
         this.refresh();
         this.drawText("Chapitre 1 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 2 */
     mathias_chap2_p1(){
         this.refresh();
         this.drawText("Chapitre 2 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap2_p2(){
         this.refresh();
         this.drawText("Chapitre 2 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap2_p3(){
         this.refresh();
         this.drawText("Chapitre 2 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 3 */
     mathias_chap3_p1(){
         this.refresh();
         this.drawText("Chapitre 3 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap3_p2(){
         this.refresh();
         this.drawText("Chapitre 3 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap3_p3(){
         this.refresh();
         this.drawText("Chapitre 3 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 4 */
     mathias_chap4_p1(){
         this.refresh();
         this.drawText("Chapitre 4 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap4_p2(){
         this.refresh();
         this.drawText("Chapitre 4 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap4_p3(){
         this.refresh();
         this.drawText("Chapitre 4 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 5 */
     mathias_chap5_p1(){
         this.refresh();
         this.drawText("Chapitre 5 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap5_p2(){
         this.refresh();
         this.drawText("Chapitre 5 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap5_p3(){
         this.refresh();
         this.drawText("Chapitre 5 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 6 */
     mathias_chap6_p1(){
         this.refresh();
         this.drawText("Chapitre 6 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap6_p2(){
         this.refresh();
         this.drawText("Chapitre 6 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     mathias_chap6_p3(){
         this.refresh();
         this.drawText("Chapitre 6 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** EPILOGUE */
     mathias_epilogue(){
         this.refresh();
         this.drawText("Epilogue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** **********************
@@ -387,128 +387,128 @@ class Window_Exemple extends Window_Base {
      moros_perso(){
         this.refresh();
         this.drawText("Moros", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string", 0, 0); 
     }
     /** PROLOGUE */
     moros_prologue(){
         this.refresh();
         this.drawText("Prologue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** CHAPITRE 1 */
     moros_chap1_p1(){
         this.refresh();
         this.drawText("Chapitre 1 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap1_p2(){
         this.refresh();
         this.drawText("Chapitre 1 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap1_p3(){
         this.refresh();
         this.drawText("Chapitre 1 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 2 */
     moros_chap2_p1(){
         this.refresh();
         this.drawText("Chapitre 2 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap2_p2(){
         this.refresh();
         this.drawText("Chapitre 2 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap2_p3(){
         this.refresh();
         this.drawText("Chapitre 2 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 3 */
     moros_chap3_p1(){
         this.refresh();
         this.drawText("Chapitre 3 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap3_p2(){
         this.refresh();
         this.drawText("Chapitre 3 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap3_p3(){
         this.refresh();
         this.drawText("Chapitre 3 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 4 */
     moros_chap4_p1(){
         this.refresh();
         this.drawText("Chapitre 4 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap4_p2(){
         this.refresh();
         this.drawText("Chapitre 4 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap4_p3(){
         this.refresh();
         this.drawText("Chapitre 4 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 5 */
     moros_chap5_p1(){
         this.refresh();
         this.drawText("Chapitre 5 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap5_p2(){
         this.refresh();
         this.drawText("Chapitre 5 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap5_p3(){
         this.refresh();
         this.drawText("Chapitre 5 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 6 */
     moros_chap6_p1(){
         this.refresh();
         this.drawText("Chapitre 6 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap6_p2(){
         this.refresh();
         this.drawText("Chapitre 6 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     moros_chap6_p3(){
         this.refresh();
         this.drawText("Chapitre 6 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** EPILOGUE */
     moros_epilogue(){
         this.refresh();
         this.drawText("Epilogue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** **********************
@@ -517,128 +517,128 @@ class Window_Exemple extends Window_Base {
      louis_perso(){
         this.refresh();
         this.drawText("Louis", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string", 0, 0); 
     }
     /** PROLOGUE */
     louis_prologue(){
         this.refresh();
         this.drawText("Prologue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** CHAPITRE 1 */
     louis_chap1_p1(){
         this.refresh();
         this.drawText("Chapitre 1 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap1_p2(){
         this.refresh();
         this.drawText("Chapitre 1 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap1_p3(){
         this.refresh();
         this.drawText("Chapitre 1 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 2 */
     louis_chap2_p1(){
         this.refresh();
         this.drawText("Chapitre 2 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap2_p2(){
         this.refresh();
         this.drawText("Chapitre 2 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap2_p3(){
         this.refresh();
         this.drawText("Chapitre 2 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 3 */
     louis_chap3_p1(){
         this.refresh();
         this.drawText("Chapitre 3 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap3_p2(){
         this.refresh();
         this.drawText("Chapitre 3 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap3_p3(){
         this.refresh();
         this.drawText("Chapitre 3 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 4 */
     louis_chap4_p1(){
         this.refresh();
         this.drawText("Chapitre 4 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap4_p2(){
         this.refresh();
         this.drawText("Chapitre 4 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap4_p3(){
         this.refresh();
         this.drawText("Chapitre 4 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 5 */
     louis_chap5_p1(){
         this.refresh();
         this.drawText("Chapitre 5 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap5_p2(){
         this.refresh();
         this.drawText("Chapitre 5 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap5_p3(){
         this.refresh();
         this.drawText("Chapitre 5 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 6 */
     louis_chap6_p1(){
         this.refresh();
         this.drawText("Chapitre 6 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap6_p2(){
         this.refresh();
         this.drawText("Chapitre 6 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     louis_chap6_p3(){
         this.refresh();
         this.drawText("Chapitre 6 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** EPILOGUE */
     louis_epilogue(){
         this.refresh();
         this.drawText("Epilogue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** **********************
@@ -647,128 +647,128 @@ class Window_Exemple extends Window_Base {
      chris_perso(){
         this.refresh();
         this.drawText("Christophe", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string", 0, 0); 
     }
     /** PROLOGUE */
     chris_prologue(){
         this.refresh();
         this.drawText("Prologue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** CHAPITRE 1 */
     chris_chap1_p1(){
         this.refresh();
         this.drawText("Chapitre 1 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap1_p2(){
         this.refresh();
         this.drawText("Chapitre 1 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap1_p3(){
         this.refresh();
         this.drawText("Chapitre 1 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 2 */
     chris_chap2_p1(){
         this.refresh();
         this.drawText("Chapitre 2 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap2_p2(){
         this.refresh();
         this.drawText("Chapitre 2 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap2_p3(){
         this.refresh();
         this.drawText("Chapitre 2 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 3 */
     chris_chap3_p1(){
         this.refresh();
         this.drawText("Chapitre 3 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap3_p2(){
         this.refresh();
         this.drawText("Chapitre 3 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap3_p3(){
         this.refresh();
         this.drawText("Chapitre 3 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 4 */
     chris_chap4_p1(){
         this.refresh();
         this.drawText("Chapitre 4 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap4_p2(){
         this.refresh();
         this.drawText("Chapitre 4 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap4_p3(){
         this.refresh();
         this.drawText("Chapitre 4 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 5 */
     chris_chap5_p1(){
         this.refresh();
         this.drawText("Chapitre 5 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap5_p2(){
         this.refresh();
         this.drawText("Chapitre 5 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap5_p3(){
         this.refresh();
         this.drawText("Chapitre 5 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** CHAPITRE 6 */
     chris_chap6_p1(){
         this.refresh();
         this.drawText("Chapitre 6 1/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap6_p2(){
         this.refresh();
         this.drawText("Chapitre 6 2/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     chris_chap6_p3(){
         this.refresh();
         this.drawText("Chapitre 6 3/3", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
     /** EPILOGUE */
     chris_epilogue(){
         this.refresh();
         this.drawText("Epilogue", 0, 0, 450, "center"); // TITRE
-        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); // TOUJOURS remettre la couleur à 0 à la fin, sinon elle déteind sur la fenêtre suivante XD
+        this.drawTextEx("\n\n\\C[3]string \\C[0]", 0, 0); 
     }
 
     /** **********************
@@ -796,6 +796,7 @@ class Window_Exemple extends Window_Base {
 	
  	refresh() {
          /// Refresh sert a effacer et à redessiner.
+        this.resetTextColor()
 		if (this.contents) {
 			this.contents.clear();
 			//this.drawAll();
