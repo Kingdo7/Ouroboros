@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"battlerName":"","characterIndex":0,"characterName":"Protag_Emma","classId":1,"equips":[],"faceIndex":0,"faceName":"Emma","traits":[],"initialLevel":1,"maxLevel":99,"name":"Emma","nickname":"","note":"","profile":""},
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"Protag_Emma_servant","classId":1,"equips":[],"faceIndex":0,"faceName":"Emma","traits":[],"initialLevel":1,"maxLevel":99,"name":"Emma","nickname":"","note":"","profile":""},
 {"id":2,"battlerName":"","characterIndex":0,"characterName":"Protag_Chris","classId":1,"equips":[],"faceIndex":0,"faceName":"Christophe","traits":[],"initialLevel":1,"maxLevel":99,"name":"Christophe","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"","characterIndex":0,"characterName":"Protag_Louis","classId":1,"equips":[],"faceIndex":0,"faceName":"Louis","traits":[],"initialLevel":1,"maxLevel":99,"name":"Louis","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"","characterIndex":0,"characterName":"Protag_Mathias_2","classId":1,"equips":[],"faceIndex":0,"faceName":"Mathias","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mathias","nickname":"","note":"","profile":""},
