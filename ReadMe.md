@@ -13,7 +13,7 @@ MAJ :
 ## Deploiement
 ### Avant de publier le jeu :
 - Penser a supprimer la variable 13 qui sert a afficher le chapitre en cour dans la sauvegarde
-- Ajouter dans les images les fenetres Windows ET !door11
+- Ajouter dans les images les fenetres `Windows` ET ``!door11``
 - Changer le skip title screen de Yami pour Hime (bug d'inventaire)
 - Aller dans le fichier "Package" et mettre le jeu en full screen
 ```js
