@@ -3,5 +3,11 @@
 /img
 /movies
 /save
+
+.git
+.gitignore
+.xcf
+.7z
 Game.rpgproject
 index.html
+
