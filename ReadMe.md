@@ -13,8 +13,11 @@ MAJ :
 
 ## Deploiement
 - Penser a supprimer la variable 13 qui sert a afficher le chapitre en cour dans la sauvegarde
-
+- Ajouter dans les images les fenetres Windows ET !door11
+- Changer le skip title screen de Yami pour Hime (bug d'inventaire)
 - Aller dans le fichier "Package" et mettre le jeu en full screen
+
+
 {
     "name": "",
     "main": "www/index.html",
@@ -30,5 +33,3 @@ MAJ :
     }
 }
 
-- Ajouter dans les images les fenetres Windows ET !door11
-- Changer le skip title screen de Yami pour Hime (bug d'inventaire)
