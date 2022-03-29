@@ -8,7 +8,7 @@ MAJ :
 - [Mars](https://kingdo.itch.io/ouroboros/devlog/352442/mars)
 ------------
 ## En cours
-- Voir pourquuoi le plugin "region restriction" me met des carrés noirs 
+- Voir pourquoi le plugin "region restriction" me met des carrés noirs 
 
 ## Deploiement
 ### Avant de publier le jeu :
